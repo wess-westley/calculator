@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="lizz.css">
+</head>
+<body>
+    <div id="calculator">
+        <div id="time">00:00:00</div>
+        
+    <input id="display" readonly>
+    <div id="keys">
+        <button onclick="appendtodiplay('7')">7</button>
+        <button onclick="appendtodiplay('8')">8</button>
+        <button onclick="appendtodiplay('9')">9</button>
+        <button onclick="calculate()"class='operatorbtn'>=</button>
+        <button onclick="appendtodiplay('+')"class="operatorbtn">+</button>
+        <button onclick="appendtodiplay('*')"class="operatorbtn">*</button>
+        <button onclick="appendtodiplay('4')">4</button>
+        <button onclick="appendtodiplay('5')">5</button>
+        <button onclick="appendtodiplay('6')">6</button>
+        
+        <button onclick="appendtodiplay('1')">1</button>
+        <button onclick="appendtodiplay('/')"class='operatorbtn'>/</button>
+        <button onclick="appendtodiplay('2')">2</button>
+        <button onclick="appendtodiplay('3')">3</button>
+       
+        <button onclick="appendtodiplay('0')">0</button>
+        <button onclick="appendtodiplay('.')"class='operatorbtn'>.</button>
+        <button onclick="appendtodiplay('-')"class='operatorbtn'>-</button>
+        <button onclick="answer()"class='operatorbtn'>ans</button>
+        <button onclick="displayclear()">clear</button>
+        <button onclick="del()">DEL</button>
+        
+    </div>
+    </div>
+</body>
+<script src="hi.js"></script>
+</html>
